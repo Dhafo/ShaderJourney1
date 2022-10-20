@@ -57,7 +57,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 2800000, guid: 32c03246cf1fd2e4280bd9a36cee9c80, type: 3}
+        m_Texture: {fileID: 2800000, guid: 72c5e5fc692eca54e879b63fdff365cc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -70,9 +70,9 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _MapThreshold: 1e-35
-    - _MaxY: 100
+    - _MaxY: 30
     - _Metallic: 0
-    - _MinY: 0
+    - _MinY: -1
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -85,9 +85,9 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _AmbientColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
-    - _Color: {r: 1, g: 0.7621403, b: 0.06132078, a: 1}
+    - _Color: {r: 0.2584905, g: 0.7178911, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RampColor: {r: 1, g: 0.0141509175, b: 0.0141509175, a: 1}
+    - _RampColor: {r: 0.7238163, g: 0.7348292, b: 0.8679245, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecularColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
   m_BuildTextureStacks: []

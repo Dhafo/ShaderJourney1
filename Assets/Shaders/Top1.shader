@@ -37,11 +37,13 @@ Shader "Unlit/Top1"
             struct v2f
             {
                 float2 uv : TEXCOORD0;
-                UNITY_FOG_COORDS(1)
+   
                 float4 vertex : SV_POSITION;
 
                 //world pos
                 float3 wPos : TEXCOORD1;
+
+                UNITY_FOG_COORDS(1)
             };
 
             sampler2D _MainTex;
